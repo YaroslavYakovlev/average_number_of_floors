@@ -9,7 +9,7 @@ int main(){
   int arrApartment[15];
   int arrSkyscraper[50];
 
-  size_t general = (sizeof(arrShop)/sizeof(arrShop[0])) + 
+  float general = (sizeof(arrShop)/sizeof(arrShop[0])) + 
    (sizeof(arrFitClub)/sizeof(arrFitClub[0])) + 
     (sizeof(arrCottage)/sizeof(arrCottage[0])) +
      (sizeof(arrApartment)/sizeof(arrApartment[0])) + 
